@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Turistiando</string>
+    <string name="resenahoteles"> We offer elegant and functional rooms, equipped with all the necessary amenities for travelers. Our facilities include meeting and conference rooms. Additionally, you can enjoy our restaurants.</string>
+    <string name="resenarestaurantes">Don t wait any longer to discover the culinary delight that awaits you. Reserve your table today and let yourself be carried away by a unique gastronomic experience. We guarantee that you will leave with a satisfied palate and eager to come back for more!</string>
+    <string name="citiosturisticos">Egypt is a fascinating tourist destination that boasts a rich history, impressive ancient monuments, and beautiful landscapes.</string>
+    <string name="opcion1">English</string>
+    <string name="opcion2">Spanish</string>
+    <string name="opcion3">Italian</string>
+    <string name="opcion4">About us</string>
+    <string name="acerca">If you are interested in my application you can contact me by email</string>
+</resources>

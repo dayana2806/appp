@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Turistiando</string>
+    <string name="resenahoteles">Offriamo camere eleganti e funzionali, dotate di tutti i comfort necessari per i viaggiatori. Le nostre strutture includono sale riunioni e conferenze. Inoltre, puoi gustare i nostri ristoranti.</string>
+    <string name="resenarestaurantes">Non aspettare oltre per scoprire il piacere culinario che ti attende. Prenota il tuo tavolo oggi stesso e lasciati trasportare da un esperienza gastronomica unica. Garantiamo che partirai con il palato soddisfatto e desideroso di tornare per gustare ancora di più!</string>
+    <string name="citiosturisticos">L Egitto è una destinazione turistica affascinante che vanta una ricca storia, impressionanti monumenti antichi e bellissimi paesaggi.</string>
+    <string name="opcion1">Inglese</string>
+    <string name="opcion2">Spagnolo</string>
+    <string name="opcion3">Italiano</string>
+    <string name="opcion4">Chi siamo</string>
+    <string name="acerca">Se sei interessato alla mia candidatura puoi contattarmi via email</string>
+</resources>
