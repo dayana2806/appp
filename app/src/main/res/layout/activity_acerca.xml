@@ -17,7 +17,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintVertical_bias="0.15"
-        android:text="ACERCA DE MI"
+        android:text="@string/acercademi"
         android:textStyle="bold"
         android:textSize="30dp"
         android:layout_width="wrap_content"

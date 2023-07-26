@@ -33,7 +33,7 @@
     <Button
         android:id="@+id/botonhoteles"
         android:backgroundTint="@color/steelblue"
-        android:text="HOTELES"
+        android:text="@string/hoteles"
         android:layout_marginHorizontal="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
     <Button
         android:id="@+id/botonrestaurantes"
         android:backgroundTint="@color/steelblue"
-        android:text="RESTAURANTES"
+        android:text="@string/Restaurantes"
         android:layout_marginHorizontal="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
     <Button
         android:id="@+id/botonsitios"
         android:backgroundTint="@color/steelblue"
-        android:text="SITIOS TURISTICOS"
+        android:text="@string/SitiosTuristicos"
         android:layout_marginHorizontal="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

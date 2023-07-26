@@ -9,4 +9,8 @@
     <string name="opcion3">Italiano</string>
     <string name="opcion4">Chi siamo</string>
     <string name="acerca">Se sei interessato alla mia candidatura puoi contattarmi via email</string>
+    <string name="acercademi">Su di me</string>
+    <string name="hoteles">Alberghi</string>
+    <string name="Restaurantes">Ristoranti</string>
+    <string name="SitiosTuristicos">Siti turistici</string>
 </resources>

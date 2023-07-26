@@ -8,5 +8,8 @@
     <string name="opcion3">Italiano</string>
     <string name="opcion4">Sobre nosotros</string>
     <string name="acerca">Si te interesa mi aplicacion me puedes contactar por mi correo electronico</string>
-
+    <string name="acercademi">Acerca de mi</string>
+    <string name="hoteles">Hoteles</string>
+    <string name="Restaurantes">Restaurantes</string>
+    <string name="SitiosTuristicos">Sitious Turisticos</string>
 </resources>
