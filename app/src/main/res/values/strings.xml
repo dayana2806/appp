@@ -12,4 +12,8 @@
     <string name="hoteles">Hoteles</string>
     <string name="Restaurantes">Restaurantes</string>
     <string name="SitiosTuristicos">Sitious Turisticos</string>
+    <string name="contactolistahoteles">Contacto</string>
+    <string name="rangoprecios">Rango de precios: 300-600 EGP por persona </string>
+    <string name="telefonosrestauarente">Telefono: 3108494323</string>
+    <string name="recomendadosrestaurantes">Plato recomendado: </string>
 </resources>
