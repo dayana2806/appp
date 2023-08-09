@@ -13,8 +13,8 @@
     <string name="hoteles">Alberghi</string>
     <string name="Restaurantes">Ristoranti</string>
     <string name="SitiosTuristicos">Siti turistici</string>
-    <string name="contactolistahoteles">Contatto</string>
+    <string name="contactolistahoteles">Contatto:</string>
     <string name="rangoprecios">Fascia di prezzo: 300-600 EGP a persona </string>
-    <string name="telefonosrestauarente">Telefono: 3108494323</string>
+    <string name="telefonosrestauarente">Telefono:</string>
     <string name="recomendadosrestaurantes">piatto consigliato</string>
 </resources>
