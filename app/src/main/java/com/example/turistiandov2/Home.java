@@ -28,7 +28,6 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-
         botonHoteles=findViewById(R.id.botonhoteles);
         botonRestaurantes=findViewById(R.id.botonrestaurantes);
         botonTurismo=findViewById(R.id.botonsitios);
