@@ -1,12 +1,14 @@
 package com.example.turistiandov2.adaptadores;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.turistiandov2.R;
 import com.example.turistiandov2.moldes.Molderestaurante;
@@ -29,9 +31,8 @@ public class AdaptadoresRestaurantes extends RecyclerView.Adapter<AdaptadoresRes
     }
 
     @NonNull
-    @androidx.annotation.NonNull
     @Override
-    public AdaptadoresRestaurantes.viewHolder onCreateViewHolder(@NonNull @androidx.annotation.NonNull ViewGroup parent, int viewType) {
+    public AdaptadoresRestaurantes.viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         //esta porcion de codigo permite crear N copias del molde grafico
         View vista = LayoutInflater.from(parent.getContext()).inflate(R.layout.molderestaurante,null ,false);
@@ -40,7 +41,7 @@ public class AdaptadoresRestaurantes extends RecyclerView.Adapter<AdaptadoresRes
     }
 
     @Override
-    public void onBindViewHolder(@NonNull @androidx.annotation.NonNull AdaptadoresRestaurantes.viewHolder viewHolder, int i) {
+    public void onBindViewHolder(@NonNull AdaptadoresRestaurantes.viewHolder viewHolder, int i) {
         viewHolder.actualizarDatos(listarestaurante.get(i));
     }
 
@@ -55,7 +56,7 @@ public class AdaptadoresRestaurantes extends RecyclerView.Adapter<AdaptadoresRes
         TextView preciorestaurante;
         TextView contactorestaurante;
         TextView platorestauarente;
-        public viewHolder(@NonNull @androidx.annotation.NonNull View itemView) {
+        public viewHolder(@NonNull View itemView) {
             super(itemView);
             fotorestaurante=itemView.findViewById(R.id.fotolistarestaurantes);
             nombrerestaurante=itemView.findViewById(R.id.nombrerestaurante);

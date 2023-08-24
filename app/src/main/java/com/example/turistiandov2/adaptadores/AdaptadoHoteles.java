@@ -1,12 +1,14 @@
 package com.example.turistiandov2.adaptadores;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.turistiandov2.R;
 import com.example.turistiandov2.moldes.Moldehotel;
@@ -29,9 +31,8 @@ public class AdaptadoHoteles extends RecyclerView.Adapter<AdaptadoHoteles.viewHo
     }
 
     @NonNull
-    @androidx.annotation.NonNull
     @Override
-    public AdaptadoHoteles.viewHolder onCreateViewHolder(@NonNull @androidx.annotation.NonNull ViewGroup parent, int viewType) {
+    public AdaptadoHoteles.viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         //esta porcion de codigo permite crear N copias del molde grafico
         View vista = LayoutInflater.from(parent.getContext()).inflate(R.layout.moldehotel,null ,false);
@@ -40,7 +41,7 @@ public class AdaptadoHoteles extends RecyclerView.Adapter<AdaptadoHoteles.viewHo
     }
 
     @Override
-    public void onBindViewHolder(@NonNull @androidx.annotation.NonNull AdaptadoHoteles.viewHolder viewHolder, int i) {
+    public void onBindViewHolder(@NonNull AdaptadoHoteles.viewHolder viewHolder, int i) {
       viewHolder.actualizarDatos(listaHoteles.get(i));
     }
 
@@ -54,7 +55,7 @@ public class AdaptadoHoteles extends RecyclerView.Adapter<AdaptadoHoteles.viewHo
         TextView nombreHotel;
         TextView precioHotel;
         TextView contactoHotel;
-        public viewHolder(@NonNull @androidx.annotation.NonNull View itemView) {
+        public viewHolder(@NonNull View itemView) {
             super(itemView);
             fotoHotel=itemView.findViewById(R.id.fotolistahotel);
                     nombreHotel=itemView.findViewById(R.id.nombrelistahotel);

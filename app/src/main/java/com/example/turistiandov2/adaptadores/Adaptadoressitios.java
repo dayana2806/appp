@@ -1,12 +1,14 @@
 package com.example.turistiandov2.adaptadores;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.turistiandov2.R;
 import com.example.turistiandov2.moldes.Moldeturismo;
@@ -29,9 +31,8 @@ public class Adaptadoressitios extends RecyclerView.Adapter<Adaptadoressitios.vi
     }
 
     @NonNull
-    @androidx.annotation.NonNull
     @Override
-    public Adaptadoressitios.viewHolder onCreateViewHolder(@NonNull @androidx.annotation.NonNull ViewGroup parent, int viewType) {
+    public Adaptadoressitios.viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         //esta porcion de codigo permite crear N copias del molde grafico
         View vista = LayoutInflater.from(parent.getContext()).inflate(R.layout.moldeturismo,null ,false);
@@ -40,7 +41,7 @@ public class Adaptadoressitios extends RecyclerView.Adapter<Adaptadoressitios.vi
     }
 
     @Override
-    public void onBindViewHolder(@NonNull @androidx.annotation.NonNull Adaptadoressitios.viewHolder viewHolder, int i) {
+    public void onBindViewHolder(@NonNull Adaptadoressitios.viewHolder viewHolder, int i) {
         viewHolder.actualizarDatos(listasitiosturisticos.get(i));
     }
 
@@ -55,10 +56,10 @@ public class Adaptadoressitios extends RecyclerView.Adapter<Adaptadoressitios.vi
         TextView preciositio;
         TextView contactositio;
         TextView telefonositios;
-        public viewHolder(@NonNull @androidx.annotation.NonNull View itemView) {
+        public viewHolder(@NonNull View itemView) {
             super(itemView);
-            fotositio=itemView.findViewById(R.id.telefonoturismo);
-            nombresitio=itemView.findViewById(R.id.valledelosrteyesimg);
+            fotositio=itemView.findViewById(R.id.valledelosrteyesimg);
+            nombresitio=itemView.findViewById(R.id.moldeturismo);
             preciositio=itemView.findViewById(R.id.precioturismo);
             contactositio=itemView.findViewById(R.id.telefonoturismo);
             telefonositios=itemView.findViewById(R.id.telefonoturismo2);

@@ -1,10 +1,11 @@
 package com.example.turistiandov2;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+
 
 import com.example.turistiandov2.adaptadores.AdaptadoHoteles;
 import com.example.turistiandov2.moldes.Moldehotel;
