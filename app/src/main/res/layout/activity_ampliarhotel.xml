@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-
-
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    app:cardCornerRadius="21dp"
-    app:cardElevation="5dp"
-    app:cardUseCompatPadding="true"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent"
+    tools:context=".Ampliarhotel"
+    android:background="@drawable/fondos">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/sssssss"
-        >
 
         <ImageView
-            android:id="@+id/fotolistahotel"
+            android:id="@+id/fotoampliarhoteles"
             android:layout_width="250dp"
             android:layout_height="200dp"
             android:scaleType="fitXY"
@@ -31,10 +22,10 @@
             app:layout_constraintVertical_bias="0.197" />
 
         <TextView
-            android:id="@+id/nombrelistahotel"
+            android:id="@+id/nombreampliarhoteles"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/fotolistahotel"
+            app:layout_constraintTop_toBottomOf="@id/fotoampliarhoteles"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -46,10 +37,10 @@
             />
 
         <TextView
-            android:id="@+id/precioturistahotel"
+            android:id="@+id/precioampliarhoteles"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/nombrelistahotel"
+            app:layout_constraintTop_toBottomOf="@id/nombreampliarhoteles"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -62,11 +53,11 @@
             />
 
         <TextView
-            android:id="@+id/conctatolistahoteles"
+            android:id="@+id/conctatoampliarhoteles"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/nombrelistahotel"
-            app:layout_constraintStart_toEndOf="@id/precioturistahotel"
+            app:layout_constraintTop_toBottomOf="@id/nombreampliarhoteles"
+            app:layout_constraintStart_toEndOf="@id/precioampliarhoteles"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             android:text="@string/contactolistahoteles"
@@ -77,7 +68,7 @@
             />
 
         <TextView
-            android:id="@+id/numerotolistahoteles"
+            android:id="@+id/numeroampliarhoteles"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="310 8494323"
@@ -86,11 +77,22 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.793"
-            app:layout_constraintStart_toEndOf="@id/conctatolistahoteles"
-            app:layout_constraintTop_toBottomOf="@id/nombrelistahotel"
+            app:layout_constraintStart_toEndOf="@id/conctatoampliarhoteles"
+            app:layout_constraintTop_toBottomOf="@id/nombreampliarhoteles"
             app:layout_constraintVertical_bias="0.097" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/botonampliarhoteles"
+        android:backgroundTint="@color/lightcoral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reservar"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginBottom="210dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        />
 
-</androidx.cardview.widget.CardView>
 
+</androidx.constraintlayout.widget.ConstraintLayout>
