@@ -79,6 +79,7 @@ public class AdaptadoresRestaurantes extends RecyclerView.Adapter<AdaptadoresRes
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(itemView.getContext(), Ampliarrestaurantes.class);
+                    intent.putExtra("datosrestaurante",molderestaurante);
                     itemView.getContext().startActivity(intent);
                 }
             });

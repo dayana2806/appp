@@ -33,8 +33,8 @@ public class ListaSitiosTuristicos extends AppCompatActivity {
 
     }
     public void llenarListaConDatos(){
-        listasitiosturisticos.add(new Moldeturismo("Las Pirámides de Giza","dayismo12345@gmail.com","310-8494323","150.0000",R.drawable.turismouno));
-        listasitiosturisticos.add(new Moldeturismo(" Templo de Hatshepsut y Los Colosos Memnon","dayismo12345@gmail.com","310-8494323","100.0000",R.drawable.turismotres));
-        listasitiosturisticos.add(new Moldeturismo("Templo de Lúxor","dayismo12345@gmail.com","310-8494323","150.0000",R.drawable.turismocuatro));
+        listasitiosturisticos.add(new Moldeturismo("Pirámides de Giza","Dayana","310-8494323","150.0000",R.drawable.turismouno));
+        listasitiosturisticos.add(new Moldeturismo(" Templo de Hatshepsut","Keiner","310-8494323","100.0000",R.drawable.turismotres));
+        listasitiosturisticos.add(new Moldeturismo("Templo de Lúxor","David","310-8494323","150.0000",R.drawable.turismocuatro));
     }
 }

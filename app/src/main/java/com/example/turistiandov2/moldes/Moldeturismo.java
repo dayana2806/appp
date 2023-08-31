@@ -1,6 +1,8 @@
 package com.example.turistiandov2.moldes;
 
-public class Moldeturismo {
+import java.io.Serializable;
+
+public class Moldeturismo implements Serializable {
 
     private String nombre;
     private String nombreContacto;

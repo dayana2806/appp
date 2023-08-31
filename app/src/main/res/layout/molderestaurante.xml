@@ -50,31 +50,29 @@
         android:id="@+id/rangopreciolistarestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/fotolistarestaurantes"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:text="@string/rangoprecios"
-        android:textStyle="bold"
-        app:layout_constraintVertical_bias="0.04"
-        app:layout_constraintHorizontal_bias="0.3"
         android:textSize="18dp"
-        />
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.696"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fotolistarestaurantes"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/telefonolistarestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/rangopreciolistarestaurante"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:text="@string/telefonosrestauarente"
-        android:textStyle="bold"
-        app:layout_constraintVertical_bias="0.03"
-        app:layout_constraintHorizontal_bias="0.1"
         android:textSize="18dp"
-        />
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rangopreciolistarestaurante"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/platorecomendadolisrestauarantes"
@@ -95,35 +93,15 @@
         android:id="@+id/platorecomendadolisrestauarantes2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/telefonolistarestaurante"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:text="Sambousak "
-        android:textStyle="italic"
-        app:layout_constraintVertical_bias="0.03"
-        app:layout_constraintHorizontal_bias="0.62"
         android:textSize="18dp"
-        />
-
-    <TextView
-        android:id="@+id/numero"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/rangopreciolistarestaurante"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:text="310-8494323"
-        android:textStyle="italic"
-        app:layout_constraintVertical_bias="0.03"
-        app:layout_constraintHorizontal_bias="0.4"
-        android:textSize="18dp"
-        />
-
-
-
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.699"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/telefonolistarestaurante"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

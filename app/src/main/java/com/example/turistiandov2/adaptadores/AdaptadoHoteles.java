@@ -75,6 +75,7 @@ public class AdaptadoHoteles extends RecyclerView.Adapter<AdaptadoHoteles.viewHo
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(itemView.getContext(), Ampliarhotel.class);
+                    intent.putExtra("datoshotel",moldehotel);
                     itemView.getContext().startActivity(intent);
                 }
             });

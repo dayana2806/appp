@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         Timer tiempo=new Timer();
-        tiempo.schedule(inicio,5000);
+        tiempo.schedule(inicio,1000);
 
     }
 }

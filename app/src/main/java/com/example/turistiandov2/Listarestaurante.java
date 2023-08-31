@@ -32,10 +32,10 @@ public class Listarestaurante extends AppCompatActivity {
 
     }
     public void llenarListaConDatos(){
-        listaRestaurante.add(new Molderestaurante("Charlie's Restaurant","310-8494323","100.000 a 450.000","Gourmet Mango Ice Cream ",R.drawable.restauarntedos));
-        listaRestaurante.add(new Molderestaurante("Authentic Turkish food","310-8494323","50.000 a 300.00","GCheese PlatterLE 180 ",R.drawable.restaurantetres));
-        listaRestaurante.add(new Molderestaurante("Indira Indian Restaurant","310-8494323","150.000 a 600.000","Ful Medames\n",R.drawable.restaurantecuatro));
-        listaRestaurante.add(new Molderestaurante("Al Khal Egyptian Restaurant","310-8494323","70.000 a 300.000","Gourmet Mango Ice CreamKoshari ",R.drawable.restaurantesinco));
+        listaRestaurante.add(new Molderestaurante("Charlie's","310-8494323","100.000 a 450.000","Gourmet Mango",R.drawable.restauarntedos));
+        listaRestaurante.add(new Molderestaurante("Authentic Turkish","310-8494323","50.000 a 300.00","GCheese PlatterLe",R.drawable.restaurantetres));
+        listaRestaurante.add(new Molderestaurante("Indira Indian","310-8494323","150.000 a 600.000","Ful Medames\n",R.drawable.restaurantecuatro));
+        listaRestaurante.add(new Molderestaurante("Al Khal Egyptian","310-8494323","70.000 a 300.000","Gourmet Mango",R.drawable.restaurantesinco));
 
     }
 }

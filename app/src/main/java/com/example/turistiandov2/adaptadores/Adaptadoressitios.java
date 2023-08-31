@@ -79,6 +79,7 @@ public class Adaptadoressitios extends RecyclerView.Adapter<Adaptadoressitios.vi
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(itemView.getContext(), Ampliarturismo.class);
+                    intent.putExtra("datosturismo",moldeturismo);
                     itemView.getContext().startActivity(intent);
                 }
             });
