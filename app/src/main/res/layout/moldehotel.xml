@@ -12,7 +12,7 @@
     android:layout_height="wrap_content">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
+        android:layout_width="450dp"
         android:layout_height="match_parent"
         android:background="@drawable/sssssss"
         >
@@ -25,39 +25,38 @@
             android:src="@drawable/hoteles1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintHorizontal_bias="0.365"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.197" />
+            app:layout_constraintVertical_bias="0.205" />
 
         <TextView
             android:id="@+id/nombrelistahotel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/fotolistahotel"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
             android:text="Nefertiti Hotel Luxor"
-            app:layout_constraintVertical_bias="0.1"
-            app:layout_constraintHorizontal_bias="0.4"
             android:textSize="26dp"
             android:textStyle="bold"
-            />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.347"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fotolistahotel"
+            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
             android:id="@+id/precioturistahotel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/nombrelistahotel"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
             android:text=" $200.000 COP"
-            app:layout_constraintVertical_bias="0.1"
-            app:layout_constraintHorizontal_bias="0.1"
             android:textSize="20dp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.235"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nombrelistahotel"
+            app:layout_constraintVertical_bias="0.0"
 
             />
 
@@ -76,19 +75,7 @@
             android:textStyle="bold"
             />
 
-        <TextView
-            android:id="@+id/numerotolistahoteles"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="310 8494323"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.793"
-            app:layout_constraintStart_toEndOf="@id/conctatolistahoteles"
-            app:layout_constraintTop_toBottomOf="@id/nombrelistahotel"
-            app:layout_constraintVertical_bias="0.097" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -16,10 +16,10 @@
             android:src="@drawable/hoteles1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintHorizontal_bias="0.527"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.197" />
+            app:layout_constraintVertical_bias="0.19" />
 
         <TextView
             android:id="@+id/nombreampliarhoteles"
@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="304dp"
-            android:layout_marginBottom="372dp"
+            android:layout_marginBottom="352dp"
             android:text="@string/contactolistahoteles"
             android:textSize="20dp"
             android:textStyle="bold"
@@ -51,8 +51,8 @@
             android:id="@+id/numeroampliarhoteles"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="184dp"
-            android:layout_marginBottom="372dp"
+            android:layout_marginEnd="168dp"
+            android:layout_marginBottom="352dp"
             android:text="310 8494323"
             android:textSize="20dp"
             android:textStyle="bold"
@@ -76,18 +76,34 @@
             app:layout_constraintVertical_bias="0.955"/>
 
         <TextView
-            android:id="@+id/ampliarloremturismo"
-            android:textColor="@color/black"
+            android:id="@+id/valoracionampliarhoteles"
             android:layout_width="300dp"
             android:layout_height="350dp"
-            android:text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+            android:text="Mi estancian en el hotel fue excepcional. El servicio fue impeclable, el personal amable y atent."
+            android:textColor="@color/black"
             android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.369"
+            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.958" />
+            app:layout_constraintVertical_bias="0.994" />
+
+        <TextView
+            android:id="@+id/precioampliarthotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" $200.000 COP"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.941"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fotoampliarhoteles"
+            app:layout_constraintVertical_bias="0.076"
+
+            />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
