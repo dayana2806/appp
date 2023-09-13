@@ -9,17 +9,21 @@ public class Moldeturismo implements Serializable {
     private String telefono;
     private String precio;
     private Integer foto;
+    private String puntaje;
+    private String lorem;
 
     public Moldeturismo() {
 
     }//construtor vasio
 
-    public Moldeturismo(String nombre, String nombreContacto, String telefono, String precio, Integer foto) {
+    public Moldeturismo(String nombre, String nombreContacto, String telefono, String precio, Integer foto, String puntaje, String lorem) {
         this.nombre = nombre;
         this.nombreContacto = nombreContacto;
         this.telefono = telefono;
         this.precio = precio;
         this.foto = foto;
+        this.puntaje = puntaje;
+        this.lorem = lorem;
     }
 
     public String getNombre() {
@@ -61,4 +65,12 @@ public class Moldeturismo implements Serializable {
     public void setFoto(Integer foto) {
         this.foto = foto;
     }
+
+    public String getPuntaje() {return puntaje;}
+
+    public void  setPuntaje(String puntaje) {this.puntaje = puntaje;}
+
+    public String getLorem() {return lorem;}
+
+    public void setLorem() {this.lorem = puntaje;}
 }

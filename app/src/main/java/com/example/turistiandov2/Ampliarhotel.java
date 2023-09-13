@@ -16,6 +16,7 @@ public class Ampliarhotel extends AppCompatActivity {
     TextView nombreAmpliandoHotel;
     TextView descripcionhotel;
     TextView precioampliarhotel;
+    TextView puntajehotel;
 
 
 
@@ -27,6 +28,7 @@ public class Ampliarhotel extends AppCompatActivity {
         nombreAmpliandoHotel = findViewById(R.id.nombreampliarhoteles);
         descripcionhotel= findViewById(R.id.valoracionampliarhoteles);
         precioampliarhotel=findViewById(R.id.precioampliarthotel);
+        puntajehotel=findViewById(R.id.puntajehotel);
 
 
         moldehotel = (Moldehotel) getIntent().getSerializableExtra("datoshotel");
@@ -37,5 +39,6 @@ public class Ampliarhotel extends AppCompatActivity {
         nombreAmpliandoHotel.setText(moldehotel.getNombre());
         descripcionhotel.setText(moldehotel.getDescrpcion());
         precioampliarhotel.setText(moldehotel.getPrecio());
+        puntajehotel.setText(moldehotel.getPuntaje());
     }
 }

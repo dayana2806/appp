@@ -16,6 +16,7 @@ public class Ampliarrestaurantes extends AppCompatActivity {
     ImageView fotoampliarrestaurante;
     TextView nombreampliarrestauarnte;
     TextView numeroampliarrestaurante;
+    TextView puntajerestaurante;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,7 @@ public class Ampliarrestaurantes extends AppCompatActivity {
         fotoampliarrestaurante=findViewById(R.id.fotolistarestaurantes);
         nombreampliarrestauarnte=findViewById(R.id.nombrerestaurante);
         numeroampliarrestaurante=findViewById(R.id.numero);
+        puntajerestaurante=findViewById(R.id.puntajerestaurante);
 
         molderestaurente=(Molderestaurante) getIntent().getSerializableExtra("datosrestaurante");
 
@@ -32,6 +34,7 @@ public class Ampliarrestaurantes extends AppCompatActivity {
         fotoampliarrestaurante.setImageResource(molderestaurente.getFoto());
         nombreampliarrestauarnte.setText(molderestaurente.getNombre());
         numeroampliarrestaurante.setText(molderestaurente.getTelefono());
+        puntajerestaurante.setText(molderestaurente.getPuntaje());
 
     }
 }

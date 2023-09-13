@@ -59,6 +59,7 @@ public class AdaptadoresRestaurantes extends RecyclerView.Adapter<AdaptadoresRes
         TextView preciorestaurante;
         TextView contactorestaurante;
         TextView platorestauarente;
+
         public viewHolder(@NonNull View itemView) {
             super(itemView);
             fotorestaurante=itemView.findViewById(R.id.fotolistarestaurantes);
@@ -74,6 +75,7 @@ public class AdaptadoresRestaurantes extends RecyclerView.Adapter<AdaptadoresRes
             preciorestaurante.setText(molderestaurante.getRangoprecio());
             contactorestaurante.setText(molderestaurante.getTelefono());
             platorestauarente.setText(molderestaurante.getPlatorecomendado());
+
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override

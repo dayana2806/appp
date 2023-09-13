@@ -9,19 +9,20 @@ public class Moldehotel implements Serializable {
     private String telefono;
     private Integer foto;
     private String descrpcion;
+    private String puntaje;
 
 
     public Moldehotel() { //constructor vacio
 
     }
 
-    public Moldehotel(String nombre, String precio, String telefono, Integer foto, String descrpcion) {
+    public Moldehotel(String nombre, String precio, String telefono, Integer foto, String descrpcion, String puntaje) {
         this.nombre = nombre;
         this.precio = precio;
         this.telefono = telefono;
         this.foto = foto;
         this.descrpcion = descrpcion;
-
+        this.puntaje = puntaje;
     }
 
     public String getDescrpcion() {
@@ -63,4 +64,10 @@ public class Moldehotel implements Serializable {
     public void setFoto(Integer foto) {
         this.foto = foto;
     }
+
+    public String getPuntaje() {
+        return puntaje;
+    }
+
+    public void  setPuntaje(String puntaje){this.puntaje = puntaje;}
 }

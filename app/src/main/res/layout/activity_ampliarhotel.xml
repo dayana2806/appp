@@ -84,10 +84,10 @@
             android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintHorizontal_bias="0.171"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.994" />
+            app:layout_constraintVertical_bias="1.0" />
 
         <TextView
             android:id="@+id/precioampliarthotel"
@@ -95,7 +95,7 @@
             android:layout_height="wrap_content"
             android:text=" $200.000 COP"
             android:textSize="20dp"
-            android:textStyle="bold"
+            android:textStyle="normal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.941"
@@ -104,6 +104,21 @@
             app:layout_constraintVertical_bias="0.076"
 
             />
+
+        <TextView
+            android:id="@+id/puntajehotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="4.5"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:textColor="@color/coral"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.834" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

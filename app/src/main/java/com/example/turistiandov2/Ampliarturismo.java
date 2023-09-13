@@ -15,6 +15,8 @@ public class Ampliarturismo extends AppCompatActivity {
    Moldeturismo moldeturismo;
    ImageView fotoampliarturismo;
    TextView nombreampliarturismo;
+   TextView puntajeturismo;
+   TextView loremturismo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,8 @@ public class Ampliarturismo extends AppCompatActivity {
         setContentView(R.layout.activity_ampliarturismo);
         fotoampliarturismo=findViewById(R.id.amplearimagenturismo);
         nombreampliarturismo=findViewById(R.id.ampliartituloturismo);
+        puntajeturismo=findViewById(R.id.puntajeturismo);
+      loremturismo=findViewById(R.id.ampliarloremturismo);
 
         moldeturismo=(Moldeturismo) getIntent().getSerializableExtra("datosturismo");
 
@@ -29,6 +33,7 @@ public class Ampliarturismo extends AppCompatActivity {
 
         fotoampliarturismo.setImageResource(moldeturismo.getFoto());
         nombreampliarturismo.setText(moldeturismo.getNombre());
-
+        puntajeturismo.setText(moldeturismo.getPuntaje());
+        loremturismo.setText(moldeturismo.getLorem());
     }
 }
