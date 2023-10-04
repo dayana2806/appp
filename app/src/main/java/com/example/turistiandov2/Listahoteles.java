@@ -46,8 +46,15 @@ public class Listahoteles extends AppCompatActivity {
 
                                String nombreHotel=document.getString("nombre");
                                String precioHotel=document.getString("precio");
-                                Toast.makeText(Listahoteles.this, nombreHotel, Toast.LENGTH_SHORT).show();
+                               String puntajeHotel=document.getString("puntaje");
+                               String descipcionHotel=document.getString("descripcion");
+                               String telefonoHotel=document.getString("telefono");
 
+                                Toast.makeText(Listahoteles.this, nombreHotel, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Listahoteles.this, precioHotel, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Listahoteles.this, puntajeHotel, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Listahoteles.this, descipcionHotel, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Listahoteles.this, telefonoHotel, Toast.LENGTH_SHORT).show();
                             }
                         } else {
                            // Log.w(TAG, "Error getting documents.", task.getException());
